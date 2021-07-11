@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MainTreinoJava {
     public static void main(String [] args) {
         System.setProperty("spring.profiles.active" , "errorhandling");
+        System.setProperty("spring.profiles.active" , "prod");
+        System.setProperty("spring.profiles.active" , "dev");
         SpringApplication.run(MainTreinoJava.class, args);
     }
 }
