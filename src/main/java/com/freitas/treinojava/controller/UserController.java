@@ -14,7 +14,6 @@ import javax.annotation.PostConstruct;
 public class UserController {
 
     @GetMapping("/")
-    @Value("${appversion}")
     public String getMensagem() {
         return "Testando Inicial";
     }
